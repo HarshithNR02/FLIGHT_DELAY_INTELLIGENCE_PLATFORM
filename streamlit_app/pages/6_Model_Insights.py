@@ -15,7 +15,7 @@ tab1, tab2, tab3 = st.tabs(["SHAP Analysis", "Model Performance", "58% Ceiling"]
 with tab1:
     st.subheader("SHAP Global Feature Importance")
 
-    shap_values = np.load(os.path.join(PROJECT_ROOT, 'models/shap_values_50k_v2.npy'))
+    shap_values = np.load(os.path.join(PROJECT_ROOT, 'models/shap_values_50k.npy'))
     with open(os.path.join(PROJECT_ROOT, 'models/feature_list_final.txt')) as f:
         features = f.read().strip().split('\n')
 
