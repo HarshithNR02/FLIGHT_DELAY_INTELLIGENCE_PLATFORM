@@ -248,9 +248,9 @@ Response:
 ├── 06_clustering.ipynb                                 # K-Means segmentation
 ├── 07_classifier_optuna_tuning.ipynb                   # 50-trial Optuna search
 ├── 08_Final_Feature_engineering.ipynb                  # Clean 61-feature pipeline
-├── 09_classifier_model_training.ipynb                  # Final LightGBM classifier
+├── 09_Final_Classifier_model_training.ipynb                  # Final LightGBM classifier
 ├── 10_regressor_optuna_training.ipynb                  # Regressor Optuna search
-├── 11_regressor_model_training.ipynb                   # Final LightGBM regressor
+├── 11_Final_regressor_model_training.ipynb                   # Final LightGBM regressor
 ├── 12_cascade_delay_analysis.ipynb                     # Cascade propagation analysis
 ├── 13_shap_analysis.ipynb                              # SHAP explanations
 ├── 14_cost_benefit.ipynb                               # $2.78B savings analysis
