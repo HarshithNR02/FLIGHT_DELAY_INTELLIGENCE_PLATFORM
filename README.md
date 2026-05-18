@@ -245,9 +245,9 @@ Response:
 ├── 05b_feature_engineering_v2_rolling_rates_turnaround.ipynb  # Flight-level rates, turnaround
 ├── 05c_feature_engineering_v3_inbound_tail_hub.ipynb    # Inbound delays, tail history, hub fever
 ├── 05d_feature_engineering_v4_weather_deltas_stress.ipynb  # Weather deltas, stress indices
-├── 06_airline_airport_clustering.ipynb                 # K-Means segmentation
+├── 06_clustering.ipynb                                 # K-Means segmentation
 ├── 07_classifier_optuna_tuning.ipynb                   # 50-trial Optuna search
-├── 08_feature_engineering_final.ipynb                  # Clean 61-feature pipeline
+├── 08_Final_Feature_engineering.ipynb                  # Clean 61-feature pipeline
 ├── 09_classifier_model_training.ipynb                  # Final LightGBM classifier
 ├── 10_regressor_optuna_training.ipynb                  # Regressor Optuna search
 ├── 11_regressor_model_training.ipynb                   # Final LightGBM regressor
